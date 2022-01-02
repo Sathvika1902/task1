@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap');
+.details {
+    background-color: rgb(202, 212, 214);
+    height: 200px;
+    width: 1000px;
+    padding: 50px;
+    border: 2px solid black;
+    margin: 10px;
+}
+body {
+    margin: 50px;
+    height: 280mm;
+    width: 240mm;
+    border: 4px solid black;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+table {
+    width: 100%;
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.pic {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+img {
+    height: 300px;
+    width: 250px;
+}
+.pdetails {
+    height: 200px;
+    width: 120mm;
+    background-color: rgb(202, 212, 214);
+    border:2px solid black;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+.education{
+    background-color: rgb(202, 212, 214);
+    color: rgb(12, 8, 5);
+    width: 1000px;
+}
+.main{
+    display: flex;
+
+}
+.main1 {
+    display: flex;
+
+}
+.achv{
+    height: 200px;
+    width: 120mm;
+    background-color: rgb(202, 212, 214);
+    border:2px solid black;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+
+.hobbies{
+    background-color: rgb(202, 212, 214);
+    height: 250px;
+    width: 120mm;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    border-radius: 10px;
+}
+.skills{
+    
+    background-color: rgb(202, 212, 214);
+    height: 250px;
+    width:  120mm;
+    border: 2px solid black;
+    margin: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.container {
+display: flex;
+justify-content: space-between;
+}
+
+.education {
+    table-layout: auto;
+    column-width: 700px;
+    width: 240mm;
+    
+}
